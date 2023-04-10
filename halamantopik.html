@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Halaman Topik - Bandung City Dashboard</title>
+
+    <!-- MDB icon -->
+    <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"/>
+
+    <!-- Google Fonts Poppins -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
+
+    <!-- MDB -->
+    <link rel="stylesheet" href="assets/css/mdb.min.css" />
+
+  </head>
+  
+  <body>
+    <!-- Start your project here-->
+    <!--::: Navigation Bar :::-->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-scrolled shadow-none">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="landingPage.html"><img src="assets/image/logoBCD.png" alt="" width="150" height="50" class="d-inline-block align-text-top"></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-mdb-toggle="collapse"
+          data-mdb-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="landingPage.html">Beranda</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="halamantopik.html">Topik</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Open Data</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--::: End Navigation Bar :::-->
+
+    <!--::: Section Deskripsi Website :::-->
+    <section class="decsdashboard cont-fluid">
+    <h1 class="descdash">
+        Percarian Dashboard
+    </h1>
+    <div class="row">
+        <div class="col-md-7">
+            <div class="has-search">
+                <input type="text" class="form-control" placeholder="Cari Topik Dashboard">
+                <button class="form-control-feedback"><i class="fas fa-search"></i></button>
+            </div>
+        </div>
+        <div class="col-md-1 filterdt">
+            <button class="btn dropdown-toggle" type="button" id="dropdownMenu2" data-mdb-toggle="dropdown" aria-expanded="false">
+                Urutkan
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                <li><button class="dropdown-item" type="button">Terbaru</button></li>
+                <li><button class="dropdown-item" type="button">Terlama</button></li>
+            </ul>
+        </div>
+        <div class="col-md-1 filterdt2">
+            <button class="btn dropdown-toggle" type="button" id="dropdownMenu2" data-mdb-toggle="dropdown" aria-expanded="false">
+                Pilih Topik
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                <li><button class="dropdown-item" type="button">Kependudukan</button></li>
+                <li><button class="dropdown-item" type="button">Pendidikan</button></li>
+                <li><button class="dropdown-item" type="button">Kesehatan</button></li>
+                <li><button class="dropdown-item" type="button">Indeks Survey</button></li>
+            </ul>
+        </div>
+    </div>
+    </section>
+    <!--::: End Section Deskripsi Website :::-->
+
+    <!--::: Section Topik Dashboard Website :::-->
+    <section class="topikdash cont-fluid">
+        <div class="row row-cols-1 row-cols-md-2 g-4">
+            <div class="col">
+              <div class="card">
+                <div class="row g-0">
+                    <div class="col-md-2 imagetopik">
+                        <a href="hlmKependudukan.html"><img src="assets/image/tkependudukan.png" class="card-img-left" alt="..."></a>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                        <h5 class="card-title titletds">Kependudukan</h5>
+                        <p class="card-text texttds">
+                            Dapatkan ragam informasi terkait kependudukan di Kota Bandung
+                        </p>
+                        <a href="hlmKependudukan.html" class="btn btn-primary judultds">Topik Kependudukan</a>
+                        </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <div class="row g-0">
+                    <div class="col-md-2 imagetopik">
+                        <a href="profilsekolah.html"><img src="assets/image/tpendidikan.png" class="card-img-left" alt="..."></a>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title titletds">Pendidikan</h5>
+                            <p class="card-text texttds">
+                                Dapatkan ragam infromasi terkait pendidikan di Kota Bandung
+                            </p>
+                            <a href="profilsekolah.html" class="btn btn-primary judultds">Topik Pendidikan</a>
+                        </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <div class="row g-0">
+                    <div class="col-md-2 imagetopik">
+                      <a href="kesehatan.html"><img src="assets/image/tkesehatan.png" class="card-img-left" alt="..."></a>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title titletds">Kesehatan</h5>
+                            <p class="card-text texttds">
+                                Dapatkan ragam informasi terkait kesehatan di Kota Bandung
+                            </p>
+                            <a href="kesehatan.html" class="btn btn-primary judultds">Topik Kesehatan</a>
+                        </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <div class="row g-0">
+                    <div class="col-md-2 imagetopik">
+                        <a href="indekssurvey.html"><img src="assets/image/tindekssurvey.png" class="card-img-left" alt="..."></a>
+                    </div>
+                    <div class="col-md-9">
+                        <div class="card-body">
+                            <h5 class="card-title titletds">Indeks Survey</h5>
+                            <p class="card-text texttds">
+                                Dapatkan informasi Kecamatan Indeks Kebahagiaan dan Indeks Layak Huni
+                            </p>
+                            <a href="indekssurvey.html" class="btn btn-primary judultds">Topik Indeks Survey</a>
+                        </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <div class="row g-0">
+                    <div class="col-md-2 imagetopik">
+                        <a href="#"><img src="assets/image/tstatistik.png" class="card-img-left" alt="..."></a>
+                    </div>
+                    <div class="col-md-9">
+                        <div class="card-body">
+                            <h5 class="card-title titletds">Statistik Penduduk Kota Bandung</h5>
+                            <p class="card-text texttds">
+                                Dapatkan informasi Statistik Penduduk Kota Bandung
+                            </p>
+                            <a href="#" class="btn btn-primary judultds">Topik Kependudukan</a>
+                        </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <div class="row g-0">
+                    <div class="col-md-2 imagetopik">
+                        <a href="#"><img src="assets/image/tjmlsekolah.png" class="card-img-left" alt="..."></a>
+                    </div>
+                    <div class="col-md-9">
+                        <div class="card-body">
+                            <h5 class="card-title titletds">Jumlah Sekolah Kota Bandung</h5>
+                            <p class="card-text texttds">
+                                Dapatkan informasi Jumlah Sekolah Kota Bandung
+                            </p>
+                            <a href="#" class="btn btn-primary judultds">Topik Pendidikan</a>
+                        </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+    </section>
+    <!--::: END Section Topik Dashboard Website :::-->
+
+    <!--::: Section FOOTER :::-->
+    <footer class="text-center text-lg-start bg-white text-muted" style="border-top: 1px solid rgba(0, 0, 0, 0.1) !important;">
+      <!-- Section: Social media -->
+      <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
+      style="background-color: rgba(0, 0, 0, 0.025);">
+        <!-- Left -->
+        <div class="me-5 d-none d-lg-block">
+          <span style="color: rgba(0, 0, 0, 0.6); font-size: 14px;">© 2023 Copyright Bandung City Dashboard</span>
+        </div>
+        <!-- Left -->
+
+        <!-- Right -->
+        <div>
+          <a href="" class="me-4 link-secondary" style="color: rgba(0, 0, 0, 0.6) !important; font-size: 14px !important;">
+            Tentang
+          </a>
+          <a href="" class="me-4 link-secondary" style="color: rgba(0, 0, 0, 0.6) !important; font-size: 14px !important;">
+            Hubungi Kami
+          </a>
+        </div>
+        <!-- Right -->
+      </section>
+      <!-- Section: Social media -->
+    </footer>
+    <!--::: End Section FOOTER :::-->
+
+    <!-- End your project here-->
+
+    <!-- MDB -->
+    <script type="text/javascript" src="assets/js/mdb.min.js"></script>
+    <!-- Custom scripts -->
+    <script type="text/javascript"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
+    <!-- Custom Navbar Background On Scroll  -->
+    <script>
+      $(window).scroll(function(){
+        $('nav').toggleClass('scrolled', $(this).scrollTop() > 100);
+        });
+
+        $(document).ready(function() {
+          $('#myCarousel').carousel({
+            interval: 10000
+        })
+      });
+    </script>
+    <!-- Custom Navbar Background On Scroll  -->
+  </body>
+</html>

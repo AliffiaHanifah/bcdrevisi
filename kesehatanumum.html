@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Kesehatan - Bandung City Dashboard</title>
+
+    <!-- MDB icon -->
+    <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"/>
+
+    <!-- Google Fonts Poppins -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
+
+    <!-- MDB -->
+    <link rel="stylesheet" href="assets/css/mdb.min.css" />
+
+    <!-- Resources Grafik -->
+    <script src="https://cdn.amcharts.com/lib/5/index.js"></script>
+    <script src="https://cdn.amcharts.com/lib/5/xy.js"></script>
+    <script src="https://cdn.amcharts.com/lib/5/themes/Animated.js"></script>
+    <!-- Chart code -->
+    <script src="assets/js/grafikkesehatan.js"></script>
+
+  </head>
+  
+  <body>
+    <!-- Start your project here-->
+    <!--::: Navigation Bar :::-->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-scrolled shadow-none">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="landingPage.html"><img src="assets/image/logoBCD.png" alt="" width="150" height="50" class="d-inline-block align-text-top"></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-mdb-toggle="collapse"
+          data-mdb-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="landingPage.html">Beranda</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="halamantopik.html">Topik</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Open Data</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--::: End Navigation Bar :::-->
+
+    <!--::: Section Deskripsi Kependudukan Website :::-->
+    <section class="decskependudukan cont-fluid">
+        <h1 class="descdashpen">
+            Dashboard Kesehatan
+        </h1>
+        <div class="">
+            <h5 class="descdash2">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </h5>
+            <h5 class="descdash3">
+                Data Tahun...
+            </h5> 
+        </div>
+        <div class="row">
+            <div class="col-md-7"></div>
+            <div class="col-md-1 filterdtp">
+                <button class="btn dropdown-toggle" type="button" id="dropdownMenu2" data-mdb-toggle="dropdown" aria-expanded="false">
+                    Pilih Subjek
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                  <li><a href="kesehatan.html"><button class="dropdown-item" type="button">Bayi</button></a></li>
+                  <li><a href="kesehatan.html"><button class="dropdown-item" type="button">Balita</button></a></li>
+                  <li><a href="kesehatan.html"><button class="dropdown-item" type="button">Ibu</button></a></li>
+                  <li><a href="kesehatanumum.html"><button class="dropdown-item" type="button">Umum</button></a></li>
+                </ul>
+            </div>
+            <div class="col-md-1 filterdtp2">
+                <button class="btn dropdown-toggle" type="button" id="dropdownMenu2" data-mdb-toggle="dropdown" aria-expanded="false">
+                    Pilih Gender
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                    <li><button class="dropdown-item" type="button">Laki-laki</button></li>
+                    <li><button class="dropdown-item" type="button">Perempuan</button></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!--::: End Section Deskripsi Kependudukan Website :::-->
+
+    <!--::: Section Visualisasi Jumlah Penduduk dan Peta Website :::-->
+    <section class="visual cont-fluid">
+        <div class="row rowgap">
+          <div class="col-sm-4">
+            <div class="card card-hk">
+              <div class="card-body">
+                <div class="card-header card-judul">
+                  <h4 class="titlejml">Filter Data</h4>
+                </div>
+                <!-- Default checkbox -->
+                <div class="form-check fcheck">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
+                    <label class="form-check-label" for="flexCheckDefault">Diare</label>
+                </div>
+                <div class="form-check fcheck2">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
+                    <label class="form-check-label" for="flexCheckDefault">DBD</label>
+                </div>
+                <div class="form-check fcheck2">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
+                    <label class="form-check-label" for="flexCheckDefault">TB</label>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="card card-mk">
+              <div class="card-body">
+                <a href="#" class="btn btn-primary judulvs">Jumlah Penduduk</a>
+                <div class="ratio ratio-21x9">
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126748.56347863129!2d107.57311687144541!3d-6.903444341655675!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e6398252477f%3A0x146a1f93d3e815b2!2sBandung%2C%20Bandung%20City%2C%20West%20Java!5e0!3m2!1sen!2sid!4v1678947738360!5m2!1sen!2sid" 
+                  width="850" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <h4 class="titleket">Keterangan</h4>
+                <div class="row row-cols-1 row-cols-md-4 g-4">
+                  <div class="col">
+                    <div class="card card-ket">
+                      <div class="card-body">
+                        <div class="warna1">
+                          <div><h6 class="ket1">0-0</h6></div>
+                        </div>
+                        <p class="card-text textket">(.... Kec/Kab/Kota)</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card card-ket">
+                      <div class="card-body">
+                        <div class="warna2">
+                          <div><h6 class="ket1">70-73</h6></div>
+                        </div>
+                        <p class="card-text textket">(.... Kec/Kab/Kota)</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card card-ket">
+                      <div class="card-body">
+                        <div class="warna3">
+                          <div><h6 class="ket1">74-74</h6></div>
+                        </div>
+                        <p class="card-text textket">(.... Kec/Kab/Kota)</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card card-ket">
+                      <div class="card-body">
+                        <div class="warna4">
+                          <div><h6 class="ket1">75-76</h6></div>
+                        </div>
+                        <p class="card-text textket">(.... Kec/Kab/Kota)</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+    <!--::: End Section Visualisasi Jumlah Penduduk dan Peta Website :::-->
+
+    <!--::: START Section Grafik Website :::-->
+    <section class="grafikes cont-fluid">
+      <div class="card">
+        <h5 class="card-header decsgk">Grafik Sebaran Analisis Kesehatan</h5>
+        <div class="card-body">          
+          <!-- HTML -->
+          <div id="chartdiv"></div>
+        </div>
+      </div>
+    </section>
+    <!--::: END Section Grafik Website :::-->
+
+    <!--::: Section FOOTER :::-->
+    <footer class="text-center text-lg-start bg-white text-muted" style="border-top: 1px solid rgba(0, 0, 0, 0.1) !important;">
+      <!-- Section: Social media -->
+      <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
+      style="background-color: rgba(0, 0, 0, 0.025);">
+        <!-- Left -->
+        <div class="me-5 d-none d-lg-block">
+          <span style="color: rgba(0, 0, 0, 0.6); font-size: 14px;">© 2023 Copyright Bandung City Dashboard</span>
+        </div>
+        <!-- Left -->
+
+        <!-- Right -->
+        <div>
+          <a href="" class="me-4 link-secondary" style="color: rgba(0, 0, 0, 0.6) !important; font-size: 14px !important;">
+            Tentang
+          </a>
+          <a href="" class="me-4 link-secondary" style="color: rgba(0, 0, 0, 0.6) !important; font-size: 14px !important;">
+            Hubungi Kami
+          </a>
+        </div>
+        <!-- Right -->
+      </section>
+      <!-- Section: Social media -->
+    </footer>
+    <!--::: End Section FOOTER :::-->
+
+    <!-- End your project here-->
+
+    <!-- MDB -->
+    <script type="text/javascript" src="assets/js/mdb.min.js"></script>
+    <!-- Custom scripts -->
+    <script type="text/javascript"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
+    <!-- Custom Navbar Background On Scroll  -->
+    <script>
+      $(window).scroll(function(){
+        $('nav').toggleClass('scrolled', $(this).scrollTop() > 100);
+        });
+
+        $(document).ready(function() {
+          $('#myCarousel').carousel({
+            interval: 10000
+        })
+      });
+    </script>
+    <!-- Custom Navbar Background On Scroll  -->
+  </body>
+</html>

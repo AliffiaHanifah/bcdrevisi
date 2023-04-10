@@ -1,0 +1,4 @@
+[[redirects]]
+from = "/*"
+to = "/landingPage.html"
+status = 200

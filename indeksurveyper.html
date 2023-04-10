@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Indeks Survey - Bandung City Dashboard</title>
+
+    <!-- MDB icon -->
+    <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"/>
+
+    <!-- Google Fonts Poppins -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
+
+    <!-- MDB -->
+    <link rel="stylesheet" href="assets/css/mdb.min.css" />
+
+    <!-- Resources -->
+    <script src="https://cdn.amcharts.com/lib/5/index.js"></script>
+    <script src="https://cdn.amcharts.com/lib/5/xy.js"></script>
+    <script src="https://cdn.amcharts.com/lib/5/themes/Animated.js"></script>
+    <!-- Chart code -->
+    <script src="assets/js/gindeksk.js"></script>
+    <script src="assets/js/gindeksl.js"></script>
+    <script src="assets/js/gindekskper.js"></script>
+    <script src="assets/js/gindekslper.js"></script>
+
+  </head>
+  
+  <body>
+    <!-- Start your project here-->
+    <!--::: Navigation Bar :::-->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-scrolled shadow-none">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="landingPage.html"><img src="assets/image/logoBCD.png" alt="" width="150" height="50" class="d-inline-block align-text-top"></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-mdb-toggle="collapse"
+          data-mdb-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="landingPage.html">Beranda</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="halamantopik.html">Topik</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Open Data</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--::: End Navigation Bar :::-->
+
+    <!--::: Section Deskripsi Indeks Survey Website :::-->
+    <section class="decsins cont-fluid">
+        <h1 class="descdashpen">
+            Dashboard Indeks Survey
+        </h1>
+        <div class="">
+            <h5 class="descdash2">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </h5>
+            <h5 class="descdash3">
+                Data Tahun...
+            </h5> 
+        </div>
+        <div class="row">
+            <div class="col-md-7"></div>
+            <div class="col-md-1 filterdtp">
+                <button class="btn dropdown-toggle" type="button" id="dropdownMenu2" data-mdb-toggle="dropdown" aria-expanded="false">
+                    Pilih Tahun
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                    <li><button class="dropdown-item" type="button">2017</button></li>
+                    <li><button class="dropdown-item" type="button">2018</button></li>
+                    <li><button class="dropdown-item" type="button">2019</button></li>
+                </ul>
+            </div>
+            <div class="col-md-1 filteris">
+                <button class="btn dropdown-toggle" type="button" id="dropdownMenu2" data-mdb-toggle="dropdown" aria-expanded="false">
+                    Pilih Kecamatan
+                </button>
+                <ul class="dropdown-menu dd-menu" aria-labelledby="dropdownMenu2">
+                    <li><button class="dropdown-item" type="button">Sukasari</button></li>
+                    <li><button class="dropdown-item" type="button">Cidadap</button></li>
+                    <li><button class="dropdown-item" type="button">Sukajadi</button></li>
+                    <li><button class="dropdown-item" type="button">Coblong</button></li>
+                    <li><button class="dropdown-item" type="button">Cibiru</button></li>
+                    <li><button class="dropdown-item" type="button">Cicendo</button></li>
+                    <li><button class="dropdown-item" type="button">Antapani</button></li>
+                    <li><button class="dropdown-item" type="button">Arcamanik</button></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!--::: End Section Deskripsi Indeks Survey Website :::-->
+
+    <!--::: START Section Grafik Usia dan Gender Website :::-->
+    <section class="grafikes cont-fluid">
+      <div class="card">
+        <div class="card-body">
+          <div class="row">
+            <div class="col-sm-6 cardgap">
+              <div class="card card-indeks">
+                <div class="card-body">
+                  <h5 class="card-title decsgik">Grafik Indeks Kebahagiaan</h5>
+                  <!-- HTML -->
+                  <div id="chartdivper1"></div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="card card-indeks">
+                <div class="card-body">
+                  <h5 class="card-title decsgik">Grafik Indeks Layak Huni</h5>
+                  <!-- HTML -->
+                  <div id="chartdivper2"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card-footer">
+          <h4 class="titleket">Deskripsi</h4>
+          <p class="deskindeks">
+            Lorem ipsum dolor sit amet consectetur. Ultricies risus quis et massa nunc euismod tristique. 
+            Sociis cursus nullam et eget ullamcorper id neque placerat tortor. Diam tellus feugiat in tellus pretium.
+          </p>
+          <h4 class="titleket">Total Perbandingan</h4>
+          <div class="container">
+            <div class="row rowper">
+              <div class="col-md colper">
+                <h6 class="text-center textkec">Kecamatan...</h6>
+                <div class="row row-cols-1 row-cols-md-2 g-4">
+                    <div class="col">
+                        <div class="card card-ket">
+                        <div class="card-body colper">
+                            <div class="warnakec">
+                            <div><h6 class="ket1">0.0000%</h6></div>
+                            </div>
+                            <p class="card-text textket">Indeks Kebahagiaan</p>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                    <div class="card card-ket">
+                        <div class="card-body colper">
+                        <div class="warnakec1">
+                            <div><h6 class="ket1">0.0000%</h6></div>
+                        </div>
+                        <p class="card-text textket">Indeks Layak Huni</p>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+              </div>
+              <div class="col-md colper1">
+                <h6 class="text-center textkec">Kecamatan...</h6>
+                <div class="row row-cols-1 row-cols-md-2 g-4">
+                    <div class="col">
+                        <div class="card card-ket">
+                        <div class="card-body colper">
+                            <div class="warnakec">
+                            <div><h6 class="ket1">0.0000%</h6></div>
+                            </div>
+                            <p class="card-text textket">Indeks Kebahagiaan</p>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                    <div class="card card-ket">
+                        <div class="card-body colper">
+                        <div class="warnakec1">
+                            <div><h6 class="ket1">0.0000%</h6></div>
+                        </div>
+                        <p class="card-text textket">Indeks Layak Huni</p>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </section>
+    <!--::: END Section Grafik Usia dan Gender Website :::-->
+
+    <!--::: Section FOOTER :::-->
+    <footer class="text-center text-lg-start bg-white text-muted" style="border-top: 1px solid rgba(0, 0, 0, 0.1) !important;">
+      <!-- Section: Social media -->
+      <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
+      style="background-color: rgba(0, 0, 0, 0.025);">
+        <!-- Left -->
+        <div class="me-5 d-none d-lg-block">
+          <span style="color: rgba(0, 0, 0, 0.6); font-size: 14px;">© 2023 Copyright Bandung City Dashboard</span>
+        </div>
+        <!-- Left -->
+
+        <!-- Right -->
+        <div>
+          <a href="" class="me-4 link-secondary" style="color: rgba(0, 0, 0, 0.6) !important; font-size: 14px !important;">
+            Tentang
+          </a>
+          <a href="" class="me-4 link-secondary" style="color: rgba(0, 0, 0, 0.6) !important; font-size: 14px !important;">
+            Hubungi Kami
+          </a>
+        </div>
+        <!-- Right -->
+      </section>
+      <!-- Section: Social media -->
+    </footer>
+    <!--::: End Section FOOTER :::-->
+
+    <!-- End your project here-->
+
+    <!-- MDB -->
+    <script type="text/javascript" src="assets/js/mdb.min.js"></script>
+    <!-- Custom scripts -->
+    <script type="text/javascript"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
+    <!-- Custom Navbar Background On Scroll  -->
+    <script>
+      $(window).scroll(function(){
+        $('nav').toggleClass('scrolled', $(this).scrollTop() > 100);
+        });
+
+        $(document).ready(function() {
+          $('#myCarousel').carousel({
+            interval: 10000
+        })
+      });
+    </script>
+    <!-- Custom Navbar Background On Scroll  -->
+  </body>
+</html>
