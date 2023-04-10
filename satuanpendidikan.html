@@ -128,21 +128,34 @@
       <!-- START FILTER  -->
       <div class="row">
         <div class="col-md-7"></div>
-        <div class="col-md-1"></div>
-        <div class="col-md-1 filterTP">
-            <button class="btn dropdown-toggle" type="button" id="dropdownMenu2" data-mdb-toggle="dropdown" aria-expanded="false">
-                Pilih Kecamatan
+        <div class="col-md-2 filterkpend">
+          <div class="btn-group">
+            <button type="button" class="btn btn-primary dropdown-toggle" data-mdb-toggle="dropdown" aria-expanded="false">
+              Pilih Tahun
             </button>
-            <ul class="dropdown-menu dd-menu" aria-labelledby="dropdownMenu2">
-                <li><button class="dropdown-item" type="button">Sukasari</button></li>
-                <li><button class="dropdown-item" type="button">Cidadap</button></li>
-                <li><button class="dropdown-item" type="button">Sukajadi</button></li>
-                <li><button class="dropdown-item" type="button">Coblong</button></li>
-                <li><button class="dropdown-item" type="button">Cibiru</button></li>
-                <li><button class="dropdown-item" type="button">Cicendo</button></li>
-                <li><button class="dropdown-item" type="button">Antapani</button></li>
-                <li><button class="dropdown-item" type="button">Arcamanik</button></li>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">2017</a></li>
+              <li><a class="dropdown-item" href="#">2018</a></li>
+              <li><a class="dropdown-item" href="#">2019</a></li>
             </ul>
+          </div>
+        </div>
+        <div class="col-md-1 filterTP">
+          <div class="btn-group">
+            <button type="button" class="btn btn-primary dropdown-toggle" data-mdb-toggle="dropdown" aria-expanded="false">
+              Pilih Kecamatan
+            </button>
+            <ul class="dropdown-menu dd-menu">
+              <li><a class="dropdown-item" href="#">Sukasari</a></li>
+              <li><a class="dropdown-item" href="#">Cidadap</a></li>
+              <li><a class="dropdown-item" href="#">Sukajadi</a></li>
+              <li><a class="dropdown-item" href="#">Coblong</a></li>
+              <li><a class="dropdown-item" href="#">Cibiru</a></li>
+              <li><a class="dropdown-item" href="#">Cicendo</a></li>
+              <li><a class="dropdown-item" href="#">Antapani</a></li>
+              <li><a class="dropdown-item" href="#">Arcamanik</a></li>
+            </ul>
+          </div>
         </div>
       </div>
       <!-- END FILTER  -->
@@ -153,7 +166,7 @@
     <section class="hlsatuanpend cont-fluid">
         <div class="row row-cols-1 row-cols-md-3 g-4">
             <div class="col">
-              <div class="card h-100">
+              <div class="card h-100 card-ps">
                 <div class="card-body">
                   <h5 class="card-title titlehls">Jumlah Sekolah</h5>
                   <p class="card-text texthls">88.888</p>
@@ -161,7 +174,7 @@
               </div>
             </div>
             <div class="col">
-              <div class="card h-100">
+              <div class="card h-100 card-ps">
                 <div class="card-body">
                   <h5 class="card-title titlehls">Jumlah Guru</h5>
                   <p class="card-text texthls">88.888</p>
@@ -169,7 +182,7 @@
               </div>
             </div>
             <div class="col">
-              <div class="card h-100">
+              <div class="card h-100 card-ps">
                 <div class="card-body">
                   <h5 class="card-title titlehls">Jumlah Siswa</h5>
                   <p class="card-text texthls">88.888</p>
@@ -182,7 +195,7 @@
 
     <!--::: START Section Grafik Siswa Guru Kelas Website :::-->
     <section class="grafikes cont-fluid">
-      <div class="card">
+      <div class="card card-ps">
         <div class="card-body">
           <div class="row row-cols-1 row-cols-md-3 g-4">
             <div class="col-sm-6">
@@ -220,36 +233,39 @@
 
     <!--::: START Section Grafik Siswa Guru Kelas Website :::-->
     <section class="grafikes cont-fluid">
-      <div class="card">
+      <div class="card card-ps">
         <div class="card-header">
           <div class="row">
               <div class="col-md-7">
                   <h5 class="decsvsp">Perbandingan Proporsi Siswa, Rombongan Belajar, Rata-rata Murid</h5>
-                  <p class="decsvsp1">Data Tahun...</p>
               </div>
-              <div class="col-md-1 filterdtp">
-                  <button class="btn dropdown-toggle" type="button" id="dropdownMenu2" data-mdb-toggle="dropdown" aria-expanded="false">
-                      Pilih Tingkat
+              <div class="col-md-2 filterkpend">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-primary dropdown-toggle" data-mdb-toggle="dropdown" aria-expanded="false">
+                    Pilih Tingkat
                   </button>
-                  <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                      <li><button class="dropdown-item" type="button">SD</button></li>
-                      <li><button class="dropdown-item" type="button">SMP</button></li>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">SD</a></li>
+                    <li><a class="dropdown-item" href="#">SMP</a></li>
                   </ul>
+                </div>
               </div>
-              <div class="col-md-1 filterdtp2">
-                  <button class="btn dropdown-toggle" type="button" id="dropdownMenu2" data-mdb-toggle="dropdown" aria-expanded="false">
-                      Pilih Sekolah
+              <div class="col-md-1 filterTP">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-primary dropdown-toggle" data-mdb-toggle="dropdown" aria-expanded="false">
+                    Pilih Sekolah
                   </button>
-                  <ul class="dropdown-menu dd-menu" aria-labelledby="dropdownMenu2">
-                      <li><button class="dropdown-item" type="button">SDN 232 Blok Sawah</button></li>
-                      <li><button class="dropdown-item" type="button">SDN 080 Bojong Indah Cibuntu</button></li>
-                      <li><button class="dropdown-item" type="button">SDN 121 Caringin Holis</button></li>
-                      <li><button class="dropdown-item" type="button">SDN 011 Cibuntu</button></li>
-                      <li><button class="dropdown-item" type="button">SDN 041 Cibuntu Warung Muncang</button></li>
-                      <li><button class="dropdown-item" type="button">SDN 023 Pajagalan</button></li>
-                      <li><button class="dropdown-item" type="button">SDN 219 Babakan Jati</button></li>
-                      <li><button class="dropdown-item" type="button">SDN 145 Binung jati</button></li>
+                  <ul class="dropdown-menu dd-menu">
+                    <li><a class="dropdown-item" href="#">SDN 232 Blok Sawah</a></li>
+                    <li><a class="dropdown-item" href="#">SDN 080 Bojong Indah Cibuntu</a></li>
+                    <li><a class="dropdown-item" href="#">SDN 121 Caringin Holis</a></li>
+                    <li><a class="dropdown-item" href="#">SDN 011 Cibuntu</a></li>
+                    <li><a class="dropdown-item" href="#">SDN 041 Cibuntu Warung Muncang</a></li>
+                    <li><a class="dropdown-item" href="#">SDN 023 Pajagalan</a></li>
+                    <li><a class="dropdown-item" href="#">SDN 219 Babakan Jati</a></li>
+                    <li><a class="dropdown-item" href="#">SDN 145 Binung jati</a></li>
                   </ul>
+                </div>
               </div>
           </div>
         </div>

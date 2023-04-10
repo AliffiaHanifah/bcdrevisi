@@ -26,7 +26,7 @@ body {
 /* :::::::::::::: START NAVIGATION ::::::::::::::*/
 .landingbg{
     background-color: #005288;
-    height: 200px;
+    height: 130px;
 }
 
 nav.navbar {
@@ -66,12 +66,7 @@ nav .navbar-nav li a:hover {
 /* :::::::::::::: END NAVIGATION ::::::::::::::*/
 
 /* :::::::::::::: START FOOTER ::::::::::::::*/
-/* .titlefooter{
-    color: #000000 !important;
-    font-size: 16px !important;
-    font-weight: 500 !important;
-    margin-left: -37px;
-} */
+
 /* :::::::::::::: END FOOTER ::::::::::::::*/
 /* ....!:::::::::: END NAVIGATION BAR & FOOTER ::::::::::!....*/
 
@@ -152,9 +147,9 @@ section.decsription {
 }
 
 .hgl-btn {
-    margin-top: -40px;
-    margin-left: 64px;
-    font-size: 18px;
+    margin-top: -50px;
+    margin-left: 48px;
+    font-size: 16px;
     line-height: 30px;
     color: #005288;
 }
@@ -199,12 +194,12 @@ section.hl{
     font-size: 27px;
     line-height: 39px;
     color: #000;
-    padding-bottom: 62px;
+    padding-bottom: 20px;
 }
 
 .rowcont {
     border-radius: 8px !important;
-    box-shadow: 0px 4px 4px rgb(0 0 0 / 10%) !important;
+    box-shadow: 0px 2px 6px rgb(0 0 0 / 20%) !important;
     height: 145px;
     width: 270px !important;
 }
@@ -283,7 +278,8 @@ section.visual{
     width: 420px;
     word-wrap: break-word;
     background-color: #fff;
-    background-clip: initial;   
+    background-clip: initial;
+    box-shadow: 0px 2px 4px rgb(0 0 0 / 20%) !important;     
 }
 
 @media only screen and (max-width: 600px) {
@@ -390,16 +386,13 @@ section.visual{
     width: 870px;
     word-wrap: break-word;
     background-color: #fff;
-    background-clip: initial;  
+    background-clip: initial;
+    box-shadow: 0px 2px 4px rgb(0 0 0 / 20%) !important;  
 }
 
 .judulvs{
     color: #000000 !important;
     font-weight: 600 !important;
-    background-color: #fff !important;
-    border-radius: 8px !important;
-    border-spacing: 0px;
-    box-shadow: 0px 2px 4px rgb(0 0 0 / 20%) !important;
     margin-bottom: 25px !important;
 }
 
@@ -551,86 +544,6 @@ section.decsdashboard{
       padding-left: 50% !important;   
     }
 }
-
-.filterdt {
-    margin-left: 12%;
-}
-
-.filterdt .btn{
-    font-size: 16px;
-    font-weight: 550;
-    text-transform: capitalize;
-    color: #000000;
-    text-align: center;
-    background-color: #B0DEFF;
-    border-radius: 10px;
-    border: none;
-    width: auto;
-    padding-left: 70%;
-}
-
-.filterdt ul.dropdown-menu button.dropdown-item{
-    font-size: 16px;
-    font-weight: 600;
-    color: #000000;
-    text-align: right;
-}
-
-.filterdt ul.dropdown-menu button.dropdown-item:hover{
-    color: #000;
-    font-weight: 600;
-}
-
-.filterdt .btn:hover {
-    background-color: #B0DEFF !important;
-}
-
-@media only screen and (max-width: 600px) {
-    .filterdt {
-      margin-top: 20px !important;
-      margin-bottom: 20px !important;
-      margin-left: -0.5px !important;
-    }
-    .filterdt .btn{
-        padding-left: 53% !important;
-    }
-    .filterdt2 .btn{
-        padding-left: 45.5% !important;
-    }
-    .filterdt2 {
-        margin-left: -70px !important;   
-    }
-}
-
-.filterdt2 .btn{
-    font-size: 16px;
-    font-weight: 550;
-    text-transform: capitalize;
-    color: #000000;
-    text-align: center;
-    background-color: #B0DEFF;
-    border-radius: 10px;
-    border: none;
-    width: auto;
-    padding-left: 70%;
-    margin-left: 70px;
-}
-
-.filterdt2 .btn:hover {
-    background-color: #B0DEFF !important;
-}
-
-.filterdt2 ul.dropdown-menu button.dropdown-item{
-    font-size: 16px;
-    font-weight: 600;
-    color: #000000;
-    text-align: right;
-}
-
-.filterdt2 ul.dropdown-menu button.dropdown-item:hover{
-    color: #000;
-    font-weight: 600;
-}
 /* :::::::::::::: END SECTION DECSRIPTION ::::::::::::::*/
 
 /* :::::::::::::: START SECTION TOPIK DASHBOARD ::::::::::::::*/
@@ -680,12 +593,13 @@ section.Psekolah {
 }
 
 .cardP:hover {
-    box-shadow: 0px 2px 4px rgb(0 0 0 / 20%) !important;
+    background-image: radial-gradient(#B0DEFF 30%, #E1F3FF 100%, #E1F3FF 0%);
 }
 
 .cardP {
     width: 350px; 
     height: 120px;
+    box-shadow: 0px 2px 4px rgb(0 0 0 / 20%) !important;
 }
 
 .imagetopikP img {
@@ -752,89 +666,9 @@ section.decsTP {
     font-size: 16px;
     text-align: left; 
     color: black;
-    font-weight: 600;
+    font-weight: 500;
     line-height: 48px;
     pointer-events: none !important;
-}
-
-.filterdtp {
-    margin-left: 8%;
-}
-
-.filterdtp .btn{
-    font-size: 16px;
-    font-weight: 550;
-    text-transform: capitalize;
-    color: #000000;
-    text-align: center;
-    background-color: #B0DEFF;
-    border-radius: 10px;
-    border: none;
-    width: auto;
-    padding-left: 70%;
-}
-
-.filterdtp ul.dropdown-menu button.dropdown-item{
-    font-size: 16px;
-    font-weight: 600;
-    color: #000000;
-    text-align: right;
-}
-
-.filterdtp ul.dropdown-menu button.dropdown-item:hover{
-    color: #000;
-    font-weight: 600;
-}
-
-.filterdtp .btn:hover {
-    background-color: #B0DEFF !important;
-}
-
-@media only screen and (max-width: 600px) {
-    .filterdtp {
-      margin-top: 20px !important;
-      margin-bottom: 20px !important;
-      margin-left: -0.5px !important;
-    }
-    .filterdtp .btn{
-        padding-left: 47% !important;
-    }
-    .filterdtp2 .btn{
-        padding-left: 45.5% !important;
-    }
-    .filterdtp2 {
-        margin-left: -100px !important;   
-    }
-}
-
-.filterdtp2 .btn{
-    font-size: 16px;
-    font-weight: 550;
-    text-transform: capitalize;
-    color: #000000;
-    text-align: center;
-    background-color: #B0DEFF;
-    border-radius: 10px;
-    border: none;
-    width: auto;
-    padding-left: 70%;
-    margin-left: 100px;
-}
-
-.filterdtp2 .btn:hover {
-    background-color: #B0DEFF !important;
-}
-
-.filterdtp2 ul.dropdown-menu button.dropdown-item{
-    font-size: 16px;
-    font-weight: 600;
-    color: #000000;
-    text-align: right;
-}
-
-.filterdtp2 ul.dropdown-menu button.dropdown-item:hover{
-    color: #000;
-    font-weight: 600;
 }
 
 .dd-menu {
@@ -850,6 +684,10 @@ section.pfpsekolah {
 
 .fotosekolah {
     margin-bottom: 0px;
+}
+
+.card-ps {
+    box-shadow: 0px 2px 4px rgb(0 0 0 / 20%) !important;  
 }
 
 .card img.ftschool{
@@ -877,10 +715,42 @@ section.pfpsekolah {
     color: #000000;
     font-weight: 500;
 }
-/* .cardpfp {
-    max-height: 400px;
-    overflow-y: auto;
-} */
+
+.filterUN {
+    margin-left: 42%;
+}
+
+.filterUN .btn-group {
+    box-shadow: none !important;
+}
+
+.filterUN .btn{
+    font-size: 16px;
+    font-weight: 550;
+    text-transform: capitalize;
+    color: #000000 !important;
+    text-align: center;
+    background-color: #B0DEFF !important;
+    border-radius: 7px;
+    padding: 10px 27px 10px 27px;
+    margin-left: 210px;
+}
+
+.filterUN .btn:hover {
+    background-color: #B0DEFF !important;
+}
+
+.filterUN ul.dropdown-menu .dropdown-item{
+    font-size: 16px;
+    font-weight: 600;
+    color: #000000;
+    text-align: right;
+}
+
+.filterUN ul.dropdown-menu .dropdown-item:hover{
+    color: #000;
+    font-weight: 600;
+}
 /* :::::::::::::: END SECTION PROFIL SEKOLAH ::::::::::::::*/
 /* ....!:::::::::: END HALAMAN PROFIL SEKOLAH::::::::::!....*/
 
@@ -890,43 +760,83 @@ section.decsTP{
     margin-bottom: 50px;
 }
 
+.filterTP .btn-group {
+    box-shadow: none !important;
+}
+
 .filterTP .btn{
     font-size: 16px;
     font-weight: 550;
     text-transform: capitalize;
-    color: #000000;
+    color: #000000 !important;
     text-align: center;
-    background-color: #B0DEFF;
-    border-radius: 10px;
-    border: none;
-    width: auto;
-    padding-left: 70%;
-    margin-left: 180px;
+    background-color: #B0DEFF !important;
+    border-radius: 7px;
+    padding: 10px 27px 10px 27px;
+    margin-left: 100px;
 }
 
 .filterTP .btn:hover {
     background-color: #B0DEFF !important;
 }
 
-.filterTP ul.dropdown-menu button.dropdown-item{
+.filterTP ul.dropdown-menu .dropdown-item{
     font-size: 16px;
     font-weight: 600;
     color: #000000;
     text-align: right;
 }
 
-.filterTP ul.dropdown-menu button.dropdown-item:hover{
+.filterTP ul.dropdown-menu .dropdown-item:hover{
     color: #000;
     font-weight: 600;
 }
 
 @media only screen and (max-width: 600px) {
     .filterTP .btn{
-        padding-left: 40% !important;
+        margin-left: 0px !important; 
+        margin-top: 10px;  
     }
-    .filterTP {
-        margin-left: -180px !important;   
+    .filterkpend .btn{
+        margin-top: 10px; 
+        margin-left: 0px !important;   
     }
+    .filterUN {
+        margin-left: -62% !important;   
+    }
+} 
+
+.filterkpend .btn-group {
+    box-shadow: none !important;
+}
+
+.filterkpend .btn{
+    font-size: 16px;
+    font-weight: 550;
+    text-transform: capitalize;
+    color: #000000 !important;
+    text-align: center;
+    background-color: #B0DEFF !important;
+    border-radius: 7px;
+    padding: 10px 27px 10px 27px;
+    margin-left: 150px;
+}
+
+.filterkpend ul.dropdown-menu .dropdown-item{
+    font-size: 16px;
+    font-weight: 600;
+    color: #000000 !important;
+    text-align: right;
+}
+
+.filterkpend ul.dropdown-menu .dropdown-item:hover{
+    color: #000 !important;
+    font-weight: 600;
+}
+
+.filterkpend .btn:hover {
+    background-color: #B0DEFF !important;
+    color: #000 !important;
 }
 
 /* :::::::::::::: END SECTION DESKRIPSI TOPIK ::::::::::::::*/
@@ -938,7 +848,7 @@ section.hlsatuanpend {
 
 .titlehls{
     color: #000000;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 600;
 }
 
@@ -983,124 +893,6 @@ section.hlsatuanpend {
 section.decsUN{
     margin-bottom: 50px;
 }
-
-.filterdUN1 {
-    margin-left: 48%;
-}
-
-.filterdUN1 .btn{
-    font-size: 16px;
-    font-weight: 550;
-    text-transform: capitalize;
-    color: #000000;
-    text-align: center;
-    background-color: #B0DEFF;
-    border-radius: 10px;
-    border: none;
-    width: auto;
-    padding-left: 70%;
-}
-
-.filterdUN1 ul.dropdown-menu button.dropdown-item{
-    font-size: 16px;
-    font-weight: 600;
-    color: #000000;
-    text-align: right;
-}
-
-.filterdUN1 ul.dropdown-menu button.dropdown-item:hover{
-    color: #000;
-    font-weight: 600;
-}
-
-.filterdUN1 .btn:hover {
-    background-color: #B0DEFF !important;
-}
-
-.filterdUN2 .btn{
-    font-size: 16px;
-    font-weight: 550;
-    text-transform: capitalize;
-    color: #000000;
-    text-align: center;
-    background-color: #B0DEFF;
-    border-radius: 10px;
-    border: none;
-    width: auto;
-    padding-left: 70%;
-    margin-left: 100px;
-}
-
-.filterdUN2 ul.dropdown-menu button.dropdown-item{
-    font-size: 16px;
-    font-weight: 600;
-    color: #000000;
-    text-align: right;
-}
-
-.filterdUN2 ul.dropdown-menu button.dropdown-item:hover{
-    color: #000;
-    font-weight: 600;
-}
-
-.filterdUN2 .btn:hover {
-    background-color: #B0DEFF !important;
-}
-
-@media only screen and (max-width: 600px) {
-    .filterdUN1 {
-      margin-top: 20px !important;
-      margin-bottom: 20px !important;
-      margin-left: 10px !important;
-    }
-    .filterdUN1 .btn{
-        padding-left: 20% !important;
-    }
-    .filterdUN2 {
-        margin-bottom: 20px !important;
-        margin-left: -89px !important;
-    }
-    .filterdUN2 .btn{
-        padding-left: 17% !important;
-    }
-    
-    .filterdUN3 .btn{
-        padding-left: 10% !important;
-    }
-    .filterdUN3 {
-        margin-left: -199px !important;   
-    }
-}
-
-.filterdUN3 .btn{
-    font-size: 16px;
-    font-weight: 550;
-    text-transform: capitalize;
-    color: #000000;
-    text-align: center;
-    background-color: #B0DEFF;
-    border-radius: 10px;
-    border: none;
-    width: auto;
-    padding-left: 25%;
-    margin-left: 210px;
-}
-
-.filterdUN3 .btn:hover {
-    background-color: #B0DEFF !important;
-}
-
-.filterdUN3 ul.dropdown-menu button.dropdown-item{
-    font-size: 16px;
-    font-weight: 600;
-    color: #000000;
-    text-align: right;
-}
-
-.filterdUN3 ul.dropdown-menu button.dropdown-item:hover{
-    color: #000;
-    font-weight: 600;
-}
 /* :::::::::::::: END SECTION DESKRIPSI NILAI UN ::::::::::::::*/
 
 /* :::::::::::::: START SECTION GRAFIK NILAI UN ::::::::::::::*/
@@ -1144,86 +936,6 @@ section.decskependudukan {
 .decsvsp1{
     color: #000000;
     font-size: 16px;
-    font-weight: 600;
-}
-
-.filtervsp {
-    margin-left: 7%;
-}
-
-.filtervsp .btn{
-    font-size: 16px;
-    font-weight: 550;
-    text-transform: capitalize;
-    color: #000000;
-    text-align: center;
-    background-color: #B0DEFF;
-    border-radius: 10px;
-    border: none;
-    width: auto;
-    padding-left: 70%;
-}
-
-.filtervsp ul.dropdown-menu button.dropdown-item{
-    font-size: 16px;
-    font-weight: 600;
-    color: #000000;
-    text-align: right;
-}
-
-.filtervsp ul.dropdown-menu button.dropdown-item:hover{
-    color: #000;
-    font-weight: 600;
-}
-
-.filtervsp .btn:hover {
-    background-color: #B0DEFF !important;
-}
-
-@media only screen and (max-width: 600px) {
-    .filtervsp {
-      margin-top: 20px !important;
-      margin-bottom: 20px !important;
-      margin-left: -0.5px !important;
-    }
-    .filtervsp .btn{
-        padding-left: 40% !important;
-    }
-    .filtervsp2 .btn{
-        padding-left: 25% !important;
-    }
-    .filtervsp2 {
-        margin-left: -80px !important;   
-    }
-}
-
-.filtervsp2 .btn{
-    font-size: 16px;
-    font-weight: 550;
-    text-transform: capitalize;
-    color: #000000;
-    text-align: center;
-    background-color: #B0DEFF;
-    border-radius: 10px;
-    border: none;
-    width: auto;
-    padding-left: 70%;
-    margin-left: 80px;
-}
-
-.filtervsp2 .btn:hover {
-    background-color: #B0DEFF !important;
-}
-
-.filtervsp2 ul.dropdown-menu button.dropdown-item{
-    font-size: 16px;
-    font-weight: 600;
-    color: #000000;
-    text-align: right;
-}
-
-.filtervsp2 ul.dropdown-menu button.dropdown-item:hover{
-    color: #000;
     font-weight: 600;
 }
 
@@ -1324,44 +1036,6 @@ section.decskependudukan {
 section.decsins {
     margin-bottom: 50px;
 }
-.filteris .btn{
-    font-size: 16px;
-    font-weight: 550;
-    text-transform: capitalize;
-    color: #000000;
-    text-align: center;
-    background-color: #B0DEFF;
-    border-radius: 10px;
-    border: none;
-    width: auto;
-    padding-left: 40%;
-    margin-left: 100px;
-}
-
-.filteris .btn:hover {
-    background-color: #B0DEFF !important;
-}
-
-.filteris ul.dropdown-menu button.dropdown-item{
-    font-size: 16px;
-    font-weight: 600;
-    color: #000000;
-    text-align: right;
-}
-
-.filteris ul.dropdown-menu button.dropdown-item:hover{
-    color: #000;
-    font-weight: 600;
-}
-
-@media only screen and (max-width: 600px) {
-    .filteris .btn{
-        padding-left: 34% !important;
-    }
-    .filteris {
-        margin-left: -100px !important;   
-    }
-}
 /* :::::::::::::: END SECTION DESKRIPSI INDEKS SURVEY ::::::::::::::*/
 
 /* :::::::::::::: START SECTION GRAFIK INDEKS SURVEY ::::::::::::::*/
@@ -1369,7 +1043,7 @@ section.decsins {
     color: #000000 !important;
     font-size: 20px;
     font-weight: 600;
-    text-align: left;
+    text-align: center;
 }
 #chartdivgik {
     width: 100%;

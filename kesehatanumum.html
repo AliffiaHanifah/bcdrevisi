@@ -79,27 +79,42 @@
             </h5> 
         </div>
         <div class="row">
-            <div class="col-md-7"></div>
-            <div class="col-md-1 filterdtp">
-                <button class="btn dropdown-toggle" type="button" id="dropdownMenu2" data-mdb-toggle="dropdown" aria-expanded="false">
-                    Pilih Subjek
-                </button>
-                <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                  <li><a href="kesehatan.html"><button class="dropdown-item" type="button">Bayi</button></a></li>
-                  <li><a href="kesehatan.html"><button class="dropdown-item" type="button">Balita</button></a></li>
-                  <li><a href="kesehatan.html"><button class="dropdown-item" type="button">Ibu</button></a></li>
-                  <li><a href="kesehatanumum.html"><button class="dropdown-item" type="button">Umum</button></a></li>
-                </ul>
+          <div class="col-md-2 filterUN">
+            <div class="btn-group">
+              <button type="button" class="btn btn-primary dropdown-toggle" data-mdb-toggle="dropdown" aria-expanded="false">
+                Pilih Tahun
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">2017</a></li>
+                <li><a class="dropdown-item" href="#">2018</a></li>
+                <li><a class="dropdown-item" href="#">2019</a></li>
+              </ul>
             </div>
-            <div class="col-md-1 filterdtp2">
-                <button class="btn dropdown-toggle" type="button" id="dropdownMenu2" data-mdb-toggle="dropdown" aria-expanded="false">
-                    Pilih Gender
-                </button>
-                <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                    <li><button class="dropdown-item" type="button">Laki-laki</button></li>
-                    <li><button class="dropdown-item" type="button">Perempuan</button></li>
-                </ul>
+          </div>
+          <div class="col-md-2 filterkpend">
+            <div class="btn-group">
+              <button type="button" class="btn btn-primary dropdown-toggle" data-mdb-toggle="dropdown" aria-expanded="false">
+                Pilih Subjek
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="kesehatan.html">Bayi</a></li>
+                <li><a class="dropdown-item" href="kesehatan.html">Balita</a></li>
+                <li><a class="dropdown-item" href="kesehatan.html">Ibu</a></li>
+                <li><a class="dropdown-item" href="kesehatanumum.html">Umum</a></li>
+              </ul>
             </div>
+          </div>
+          <div class="col-md-1 filterTP">
+            <div class="btn-group">
+              <button type="button" class="btn btn-primary dropdown-toggle" data-mdb-toggle="dropdown" aria-expanded="false">
+                Pilih Gender
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Laki-laki</a></li>
+                <li><a class="dropdown-item" href="#">Perempuan</a></li>
+              </ul>
+            </div>
+          </div>
         </div>
     </section>
     <!--::: End Section Deskripsi Kependudukan Website :::-->
@@ -108,7 +123,7 @@
     <section class="visual cont-fluid">
         <div class="row rowgap">
           <div class="col-sm-4">
-            <div class="card card-hk">
+            <div class="card card-hk card-ps">
               <div class="card-body">
                 <div class="card-header card-judul">
                   <h4 class="titlejml">Filter Data</h4>
@@ -130,9 +145,9 @@
             </div>
           </div>
           <div class="col-sm-6">
-            <div class="card card-mk">
+            <div class="card card-mk card-ps">
               <div class="card-body">
-                <a href="#" class="btn btn-primary judulvs">Jumlah Penduduk</a>
+                <h5 class="judulvs">Jumlah Penduduk</h5>
                 <div class="ratio ratio-21x9">
                   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126748.56347863129!2d107.57311687144541!3d-6.903444341655675!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e6398252477f%3A0x146a1f93d3e815b2!2sBandung%2C%20Bandung%20City%2C%20West%20Java!5e0!3m2!1sen!2sid!4v1678947738360!5m2!1sen!2sid" 
                   width="850" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -189,7 +204,7 @@
 
     <!--::: START Section Grafik Website :::-->
     <section class="grafikes cont-fluid">
-      <div class="card">
+      <div class="card card-ps">
         <h5 class="card-header decsgk">Grafik Sebaran Analisis Kesehatan</h5>
         <div class="card-body">          
           <!-- HTML -->
