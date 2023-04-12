@@ -717,7 +717,7 @@ section.pfpsekolah {
 }
 
 .filterUN {
-    margin-left: 42%;
+    margin-left: 40%;
 }
 
 .filterUN .btn-group {
@@ -733,7 +733,7 @@ section.pfpsekolah {
     background-color: #B0DEFF !important;
     border-radius: 7px;
     padding: 10px 27px 10px 27px;
-    margin-left: 210px;
+    margin-left: 160px;
 }
 
 .filterUN .btn:hover {
@@ -819,7 +819,7 @@ section.decsTP{
     background-color: #B0DEFF !important;
     border-radius: 7px;
     padding: 10px 27px 10px 27px;
-    margin-left: 150px;
+    margin-left: 125px;
 }
 
 .filterkpend ul.dropdown-menu .dropdown-item{
