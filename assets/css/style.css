@@ -2,6 +2,7 @@ body {
     background-size: 600px;
     max-width: 100%;
     height: 100vh;
+    font-family: 'Poppins' !important;
 }
 
 @media only screen and (max-width: 600px) {
@@ -122,8 +123,8 @@ section.decsription {
 .hgl-judul {
     margin-top: -90px;
     margin-left: 70px;
-    font-weight: 550;
-    font-size: 20px;
+    font-weight: 600;
+    font-size: 18px;
     line-height: 30px;
     color: #000000;
 }
@@ -131,8 +132,8 @@ section.decsription {
 .hgl-judul1 {
     margin-top: -90px;
     margin-left: 35px;
-    font-weight: 550;
-    font-size: 20px;
+    font-weight: 600;
+    font-size: 18px;
     line-height: 30px;
     color: #000000;
 }
@@ -140,15 +141,15 @@ section.decsription {
 .hgl-judul2 {
     margin-top: -90px;
     margin-left: 33px;
-    font-weight: 550;
-    font-size: 20px;
+    font-weight: 600;
+    font-size: 18px;
     line-height: 30px;
     color: #000000;
 }
 
 .hgl-btn {
     margin-top: -50px;
-    margin-left: 48px;
+    margin-left: 65px;
     font-size: 16px;
     line-height: 30px;
     color: #005288;
@@ -216,7 +217,7 @@ section.hl{
     color: #000;
     font-weight: 600;
     font-size: 18px;
-    margin-top: 20px;
+    margin-top: 18px;
     padding-right: 25px;
 }
 
@@ -224,7 +225,7 @@ section.hl{
     color: #000;
     font-weight: 600;
     font-size: 18px;
-    margin-top: 20px;
+    margin-top: 18px;
     padding-right: 60px;
 }
 
@@ -232,20 +233,28 @@ section.hl{
     color: #000;
     font-weight: 600;
     font-size: 18px;
-    margin-top: 20px;
+    margin-top: 18px;
     padding-right: 50px;
+}
+
+.judulhl4 {
+    color: #000;
+    font-weight: 600;
+    font-size: 18px;
+    margin-top: 18px;
+    padding-right: 70px;
 }
 
 
 .deschl {
     color: #000000;
-    font-size: 26px;
+    font-size: 24px;
     padding-left: 10px;
 }
 
 .descthn {
     color: #000000;
-    font-size: 20px;
+    font-size: 18px;
     padding-left: 10px;
 }
 
@@ -294,7 +303,7 @@ section.visual{
 
 .titlejml{
     color: #000000;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 600;
     margin-bottom: 20px;
     margin-top: 10px;
@@ -394,6 +403,7 @@ section.visual{
     color: #000000 !important;
     font-weight: 600 !important;
     margin-bottom: 25px !important;
+    font-size: 18px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -490,7 +500,7 @@ section.decsdashboard{
     margin-bottom: 50px;
 }
 .descdash {
-    font-size: 24px;
+    font-size: 22px;
     text-align: left; 
     color: black;
     font-weight: 600;
@@ -608,15 +618,7 @@ section.Psekolah {
 
 .titleP {
     color: #000;
-    font-size: 20px;
-    font-weight: 600;
-    padding-top: 20px;
-    padding-left: 40px;
-}
-
-.titleP {
-    color: #000;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 600;
     padding-top: 20px;
     padding-left: 40px;
@@ -643,7 +645,7 @@ section.decsTP {
 }
 
 .descdash1 {
-    font-size: 24px;
+    font-size: 20px;
     text-align: left; 
     color: black;
     font-weight: 600;
@@ -848,7 +850,7 @@ section.hlsatuanpend {
 
 .titlehls{
     color: #000000;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 600;
 }
 
@@ -908,7 +910,7 @@ section.decskependudukan {
 }
 
 .descdashpen {
-    font-size: 24px;
+    font-size: 22px;
     text-align: left; 
     color: black;
     font-weight: 600;
@@ -929,7 +931,7 @@ section.decskependudukan {
 }
 .decsvsp{
     color: #000000;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 600;
 }
 
@@ -1015,7 +1017,7 @@ section.decskependudukan {
 /* :::::::::::::: START SECTION GRAFIK USIA KEPENDUDUKAN ::::::::::::::*/
 .card-title.decsuj{
     color: #000000 !important;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 600;
     text-align: center;
 }
@@ -1041,7 +1043,7 @@ section.decsins {
 /* :::::::::::::: START SECTION GRAFIK INDEKS SURVEY ::::::::::::::*/
 .card-title.decsgik{
     color: #000000 !important;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 600;
     text-align: center;
 }
@@ -1067,7 +1069,7 @@ section.decsins {
 }
 .textkec {
     color: #000000;
-    font-size: 18px;
+    font-size: 15px;
     font-weight: 600;
 }
 .warnakec{
@@ -1172,7 +1174,7 @@ section.grafikes{
 }
 .card-header.decsgk{
     color: #000000 !important;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 600;
     text-align: center;
 }
